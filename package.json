@@ -1,0 +1,65 @@
+{
+  "name": "placement",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react": "^18.0.15",
+    "bootstrap": "^5.1.3",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^9.4.1",
+    "glightbox": "^3.1.0",
+    "jquery": "^3.6.0",
+    "npm": "^8.13.1",
+    "npm-upgrade": "^3.1.0",
+    "react": "^17.0.2",
+    "react-csv": "^2.2.2",
+    "react-dom": "^17.0.2",
+    "react-external-link": "^1.2.2",
+    "react-google-button": "^0.7.2",
+    "react-router-dom": "^0.0.0-experimental-compat.6",
+    "react-scripts": "^5.0.1",
+    "scripts": "^0.1.0",
+    "svg2sprite-cli": "^2.0.1",
+    "swiper": "^8.0.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "CI=false && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "The project is beneficial for college students, various companies visiting the campus for recruitment and even the college placement officer. The software system allows the students to create their profiles and upload all their details including their marks onto the system. The admin can check each student details and can remove faulty accounts. The system also consists of a company login where various companies visiting the college can view a list of students in that college and also their respective resumes. The software system allows students to view a list of companies who have posted for vacancy.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathamesh1601/campus-placement-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prathamesh1601/campus-placement-system/issues"
+  },
+  "homepage": "https://github.com/Prathamesh1601/campus-placement-system#readme"
+}
